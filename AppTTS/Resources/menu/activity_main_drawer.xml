@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="none">
+        <item
+            android:id="@+id/navm_File"
+            android:icon="@mipmap/fileoutput"
+            android:title="To File" />
+        <item
+            android:id="@+id/navm_Settings"
+            android:icon="@mipmap/settings"
+            android:title="Settings" />
+    </group>
+
+    <item android:title="Main">
+        <menu>
+          <item
+               android:id="@+id/navm_Claer"
+               android:icon="@mipmap/clear"
+               android:title="Claer" />
+            <item
+                android:id="@+id/navm_Run"
+                android:icon="@mipmap/run"
+                android:title="Run" />
+        </menu>
+    </item>
+
+</menu>
